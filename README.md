@@ -2,24 +2,24 @@
 
 ## Objective:
 
-Build a webpage that uses *JavaScript Fetch API* to fetch user data from a public API and display it on the page with proper styling, *search functionality*, error handling, and reload functionality.
+Build a webpage that uses JavaScript Fetch API to fetch user data from a public API and display it on the page with proper styling, search functionality, error handling, and reload functionality.
 
 ##  Tools & Technologies :
-* *HTML5*
-* *CSS3*
-* *JavaScript*
-* *Public API*: [JSONPlaceholder](https://jsonplaceholder.typicode.com/users)
+* HTML5
+* CSS3
+* JavaScript
+* Public API: [JSONPlaceholder](https://jsonplaceholder.typicode.com/users)
 
 
 ##  Features:
-* Fetches user data (name, email, address) from API
-* Displays data in *styled cards*
-* *Search box* to filter users by name or email with *highlighted matches*
-* *Loading message* while fetching data
-* *Error handling* (shows error if network fails)
-* *Reload button* to fetch fresh data
-* Responsive design (works on mobile & desktop)
-* Clean modern UI with colors, gradients & hover effects
+*  Fetches user data (name, email, address) from API
+*  Displays data in styled cards
+*  Search box to filter users by name or email with highlighted matches
+*  Loading message while fetching data
+*  Error handling (shows error if network fails)
+*  Reload button to fetch fresh data
+*  Responsive design (works on mobile & desktop)
+*  Clean modern UI with colors, gradients , hover effects
 
 ## Project Structure:
 Task-7-Fetch-and-Display-Data
@@ -30,9 +30,9 @@ Task-7-Fetch-and-Display-Data
 
 ## Demo Preview:
 
-* Displays *cards* with User Name, Email, and Address.
-* Use *search box* to filter users in real time.
-* Click *Reload* button to fetch data again.
+* Displays cards with User Name, Email, and Address.
+* Use search box to filter users in real time.
+* Click Reload button to fetch data again.
 
 ## Key Concepts Practiced:
 
@@ -54,4 +54,5 @@ Task-7-Fetch-and-Display-Data
 3. Open index.html in your browser.
 4. Use the *search box* above the cards to filter users by name or email.
 5. Click *Reload* button to fetch fresh data.
+
 
