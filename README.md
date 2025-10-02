@@ -1,19 +1,17 @@
 # Task 7 - Fetch and Display Data from a Public API
 
-## 📌 Objective:
+## Objective:
 
 Build a webpage that uses *JavaScript Fetch API* to fetch user data from a public API and display it on the page with proper styling, *search functionality*, error handling, and reload functionality.
 
-## 🛠 Tools & Technologies :
-
+##  Tools & Technologies :
 * *HTML5*
 * *CSS3*
-* *JavaScript (Fetch API, Promises, Async/Await)*
+* *JavaScript*
 * *Public API*: [JSONPlaceholder](https://jsonplaceholder.typicode.com/users)
 
 
-## 🚀 Features:
-
+##  Features:
 * Fetches user data (name, email, address) from API
 * Displays data in *styled cards*
 * *Search box* to filter users by name or email with *highlighted matches*
@@ -23,25 +21,20 @@ Build a webpage that uses *JavaScript Fetch API* to fetch user data from a publi
 * Responsive design (works on mobile & desktop)
 * Clean modern UI with colors, gradients & hover effects
 
----
-
-## 📂 Project Structure:
-
-
+## Project Structure:
 Task-7-Fetch-and-Display-Data
 │── index.html      # Main HTML file  
 │── style.css       # Styling  
 │── script.js       # Fetch logic & UI handling  
 │── README.md       # Project documentation  
 
-
-## 📸 Demo Preview:
+## Demo Preview:
 
 * Displays *cards* with User Name, Email, and Address.
 * Use *search box* to filter users in real time.
 * Click *Reload* button to fetch data again.
 
-## 🔑 Key Concepts Practiced:
+## Key Concepts Practiced:
 
 * Fetch API
 * Promises & Async/Await
@@ -51,13 +44,14 @@ Task-7-Fetch-and-Display-Data
 * Responsive design
 * Highlight search matches
 
-## 🧑‍💻 How to Run:
+## How to Run:
 
 1. Clone the repo:
 
    bash
-   git clone https://github.com/sravani-pagi/Task-7-Fetch-and-Display-Data-from-a-Public-API-Using-Fetch-API.git.
+2. git clone https://github.com/sravani-pagi/Task-7-Fetch-and-Display-Data-from-a-Public-API-Using-Fetch-API.git.
    
-2. Open index.html in your browser.
-3. Use the *search box* above the cards to filter users by name or email.
-4. Click *Reload* button to fetch fresh data.
+3. Open index.html in your browser.
+4. Use the *search box* above the cards to filter users by name or email.
+5. Click *Reload* button to fetch fresh data.
+
