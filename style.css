@@ -1,0 +1,29 @@
+body {
+  background: #EAF2F8;
+  color: #2A3E5D;
+  font-family:'Segoe UI', Arial, Helvetica, sans-serif;
+  padding:2rem;
+}
+
+#user-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border-radius: 10px;
+  
+}
+
+.user-card {
+  background: #fff;
+  border: 1px solid #211f1f;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 300px;
+  box-shadow: 0 10px 1px rgba(83, 80, 80, 0.1);
+}
+
+.error {
+  color: #b00;
+  font-weight: bold;
+}
