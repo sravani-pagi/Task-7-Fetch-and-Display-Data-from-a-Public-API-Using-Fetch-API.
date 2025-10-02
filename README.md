@@ -23,6 +23,7 @@ Build a webpage that uses JavaScript Fetch API to fetch user data from a public 
 
 ## Project Structure:
 Task-7-Fetch-and-Display-Data
+
 │── index.html      # Main HTML file  
 │── style.css       # Styling  
 │── script.js       # Fetch logic & UI handling  
@@ -54,5 +55,6 @@ Task-7-Fetch-and-Display-Data
 3. Open index.html in your browser.
 4. Use the *search box* above the cards to filter users by name or email.
 5. Click *Reload* button to fetch fresh data.
+
 
 
