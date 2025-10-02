@@ -1,39 +1,63 @@
+# Task 7 - Fetch and Display Data from a Public API
 
- # Task 7 - Fetch and Display User Data with Fetch API
+## 📌 Objective:
 
-## Description
-This project demonstrates how to use JavaScript's Fetch API to asynchronously fetch user data from a public API (`https://jsonplaceholder.typicode.com/users`) and display it dynamically on a web page. It includes JSON parsing, error handling, and simple UI updates, fulfilling the requirements of a web development internship task.
+Build a webpage that uses *JavaScript Fetch API* to fetch user data from a public API and display it on the page with proper styling, *search functionality*, error handling, and reload functionality.
 
-## Features:
-- Fetch user information including name, email, and address from the API.
-- Display data in a styled, user-friendly card layout.
-- Handle network or API errors gracefully with error messages.
-- Reload button to refetch and update the displayed user data without refreshing the page.
-- Clean code separation with HTML, CSS, and JavaScript files.
+## 🛠 Tools & Technologies :
 
-## Installation :
-1. Clone this repository:
-git clone <https://github.com/sravani-pagi/Task-7-Fetch-and-Display-Data-from-a-Public-API-Using-Fetch-API.>
-2. Navigate to the project folder:
-cd task-7-fetch-api
-3. Open `index.html` in any modern web browser (with internet access).
-
-## Usage:
-- On loading the page, user data is automatically fetched and presented.
-- Click the "Reload" button to refresh the user data from the API.
-- Disconnect from the internet to test error handling .
-  
-## Technologies Used:
-- HTML5 for structure
-- CSS3 for styling
-- JavaScript  for fetching, parsing JSON, DOM manipulation, and error handling
-- Fetch API for asynchronous HTTP requests.
-
-## Future Enhancements:
-- Add pagination or lazy loading for larger user data sets.
-- Improve UI with frameworks like React or Vue.js.
-- Implement caching for offline data availability.
+* *HTML5*
+* *CSS3*
+* *JavaScript (Fetch API, Promises, Async/Await)*
+* *Public API*: [JSONPlaceholder](https://jsonplaceholder.typicode.com/users)
 
 
-## Outcome:
-This project is open source and available under the MIT License.
+## 🚀 Features:
+
+* Fetches user data (name, email, address) from API
+* Displays data in *styled cards*
+* *Search box* to filter users by name or email with *highlighted matches*
+* *Loading message* while fetching data
+* *Error handling* (shows error if network fails)
+* *Reload button* to fetch fresh data
+* Responsive design (works on mobile & desktop)
+* Clean modern UI with colors, gradients & hover effects
+
+---
+
+## 📂 Project Structure:
+
+
+Task-7-Fetch-and-Display-Data
+│── index.html      # Main HTML file  
+│── style.css       # Styling  
+│── script.js       # Fetch logic & UI handling  
+│── README.md       # Project documentation  
+
+
+## 📸 Demo Preview:
+
+* Displays *cards* with User Name, Email, and Address.
+* Use *search box* to filter users in real time.
+* Click *Reload* button to fetch data again.
+
+## 🔑 Key Concepts Practiced:
+
+* Fetch API
+* Promises & Async/Await
+* JSON parsing
+* Error handling
+* DOM manipulation
+* Responsive design
+* Highlight search matches
+
+## 🧑‍💻 How to Run:
+
+1. Clone the repo:
+
+   bash
+   git clone https://github.com/sravani-pagi/Task-7-Fetch-and-Display-Data-from-a-Public-API-Using-Fetch-API.git.
+   
+2. Open index.html in your browser.
+3. Use the *search box* above the cards to filter users by name or email.
+4. Click *Reload* button to fetch fresh data.
